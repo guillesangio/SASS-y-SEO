@@ -1,0 +1,28 @@
+.navbar{
+	background-color:$mainColor;
+	color: $white;
+	padding-bottom: 10px;
+	img{width: 180px;
+		height: 120px;
+		padding-top: 0;	
+	}
+	a{
+		color: $white; 	
+		text-decoration: none;
+		list-style: none;
+		font-family: $mainFont;
+		display: inline-block;
+		font-size: $textLg;
+		margin-right: 60px;
+		background-color: $mainColor;
+		padding-bottom: 10px;
+		&:hover{
+			color: $keyColor;
+		}
+	}
+}
+				
+
+.navbar-toggler{
+	background-color: $white;
+}

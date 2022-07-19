@@ -1,0 +1,38 @@
+.formulario{
+	.formulariopapin{
+		.sugerencias{
+			.formulario_final{
+				.contact_1{
+					.formu{
+						width: 50%;
+						height: 40px;
+						padding: 0.375rem;
+			    		font-size: $textSm;
+			    		border-radius: 0.6rem;
+			    		margin: 5px ;
+						}
+					}
+				}	
+			.motivos{
+				.formu_motivos{
+					display: inline-block;
+				    width: 50%;
+				    height: 40px;
+				    font-size: $textSm;
+				    border-radius: 0.6rem;
+				    margin: 10px 0;
+					}	
+				}
+			.sugerencias{		
+				.formu_2{
+					width: 50%;
+			    	height: 150px;
+			    	padding: 0.375rem;
+			    	font-size: $textSm;
+			    	border-radius: 0.6rem;
+			    	margin: 10px 0;
+				}
+			}	
+		}
+	}
+}		

@@ -1,0 +1,66 @@
+.menu_papin{
+	.contenedor{
+			@include grid(20% 80%,center);
+			grid-template-rows: repeat(1, 1fr);
+			grid-template-areas: 
+			"filtros productos"
+		}
+.filtros{
+	grid-area: filtros;
+}
+.productos{
+	grid-area: productos;
+}
+}
+
+.productos{
+	.galeria{
+		@include d-flex(space-between,auto);
+		figure{
+			width: 30%;
+			text-align: center;
+			img{
+				height: 300px;
+				width: 300px;
+				border-radius: 0;
+				transition: 0.5s;
+				&:hover{
+				transform: scale(1.1);
+				}
+			}
+			figcaption{
+			@include texto($white, $textMd, 1)
+			padding-top: 10px;
+			}
+		}	
+	}		
+}	
+
+.menu_papin{
+	h2{
+	text-align: center;
+	color: $white;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	text-decoration: underline;
+	text-align: center;	
+	}
+	.contenedor{
+		.filtros{
+			@include texto($secondaryColor, $textMd, 1.5em)
+			padding-top: 15px;
+			float: none;
+			h3{
+				text-align: center;
+				text-decoration: underline;
+				padding-bottom: 20px;
+			}
+			ul{
+				list-style: none;
+				li{
+				padding-top: 15px;
+				}
+			}
+		}
+	}
+}			

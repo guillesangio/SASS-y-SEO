@@ -1,0 +1,52 @@
+.home_papin{
+	.infodepapin{
+		.articulopapin{
+			@include d-flex(space-between,row);
+			.home_nosotros_img{
+				.home_img{
+				width: 40vw;
+				height: 80vh;
+				padding: 20px;
+				}
+			}	
+			.home_papin_texto{
+			    width: 50%;
+    			justify-items: center;
+    			margin: 2% 5% 2% 3%;
+    			text-align: center;
+					h3{
+						text-align: center;
+						padding-bottom: 15px;
+					}
+					p{
+						text-align: center;
+						color: $white;
+						margin-bottom: 30px;
+						margin-top: 30px;
+					}
+			}
+		}
+	}	
+	.compra_papin{
+		.texto_compra{
+			position: relative;
+    		font-family: $mainFont;
+    		text-align: center;
+    		clear: left;
+    		top: 0rem;
+    		left: 0;
+    		right: 0;
+    		position: relative;
+		}
+		.img_compra{
+			.compra_img{
+				height: 70vh;
+				width: 100vw;
+
+			}
+		}
+
+	}
+}
+
+

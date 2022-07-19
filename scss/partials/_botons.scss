@@ -1,0 +1,50 @@
+.boton_menu{
+	font-family: $mainFont;
+    background-color: $keyColor;
+    color: $white;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+    transition: 0.5s;
+	font-size: $textMd;
+    &:hover{
+    background: $orange;
+	color: $white;
+    	}
+}
+
+.boton_pedido{
+    font-family: $mainFont;
+    background-color:$keyColor;
+    color: $white;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+    transition: 0.5s;
+    font-size: $textMd;
+    &:hover{
+    background: $orange;
+    color: $white;
+    }
+}
+
+.boton_nosotros {
+    font-family: $mainFont;
+    background-color: #960F0F;
+    color: $white;
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+    transition: 0.2s;
+    text-decoration: none;
+    font-size: $textMd;
+    &:hover{
+        background: $orange;
+    }
+}
+

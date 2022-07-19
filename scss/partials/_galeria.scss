@@ -1,0 +1,149 @@
+.leyenda_productos{
+	h2{
+		text-align: center;
+		color: $secondaryColor;
+		text-decoration: underline;
+	}
+	p{
+		text-align: center;
+		color: $white;
+		background-color: $keyColor;
+		margin: 0 80px 0 80px;
+		padding: 20px;
+		font-size: $textLg;
+	}
+}	
+
+.productosdegaleria{
+	@include grid(50% 50%,center);
+	grid-template-areas: 
+	"producto1texto producto1img"
+	"prodcuto2img producto2texto"
+	"producto3texto producto3img"
+	"producto4img producto4texto"	
+	}
+
+.producto1texto{
+	grid-area: producto1texto;
+}
+.producto2texto{
+	grid-area: producto2texto;
+}
+.producto3texto{
+	grid-area: producto3texto;
+}
+.producto4texto{
+	grid-area: producto4texto;
+}
+.producto1img{
+	grid-area: producto1img;
+}
+.producto2img{
+	grid-area: prodcuto2img;
+}
+.producto3img{
+	grid-area: producto3img;
+}
+.producto4img{
+	grid-area: producto4img;
+}
+
+
+.productosdegaleria{
+	.producto1texto{
+		h2{
+			color: $secondaryColor;
+			text-align: center;
+			margin-top: 10px
+		}
+		p{
+			font-size: $textMd;
+			text-align: center;
+			margin: 0 5% 0 5%
+		}
+	}
+	.producto1img{
+		img{
+		width: 40vw;
+		height: 50vh;
+		border-radius: 0;
+		margin-top: 10px;
+		margin-left: 10%;
+		}
+	}	
+	.producto2texto{
+		h2{
+			color: $secondaryColor;
+			text-align: center;
+			margin-top: 10px
+		}
+		p{
+			font-size: $textMd;
+			text-align: center;
+			margin: 0 5% 0 5%
+		}
+	}
+	.producto2img{
+		img{
+		width: 40vw;
+		height: 50vh;
+		border-radius: 0;
+		align-self: center;
+		margin-top: 10px;
+		margin-left: 10%;
+		}
+	}
+	.producto3texto{
+		h2{
+			color: $secondaryColor;
+			text-align: center;
+			margin-top: 10px
+		}
+		p{
+			font-size: $textMd;
+			text-align: center;
+			margin: 0 5% 0 5%
+		}
+	}
+	.producto3img{
+		img{
+		width: 40vw;
+		height: 50vh;
+		border-radius: 0;
+		align-self: center;
+		margin-top: 10px;
+		margin-left: 10%;
+		}
+	}
+	.producto4texto{
+		h2{
+			color: $secondaryColor;
+			text-align: center;
+			margin-top: 10px
+		}
+		p{
+			font-size: $textMd;
+			text-align: center;
+			margin: 0 5% 0 5%
+		}
+	}
+	.producto4img{
+		img{
+		width: 40vw;
+		height: 50vh;
+		border-radius: 0;
+		align-self: center;
+		margin-top: 10px;
+		margin-left: 10%;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+

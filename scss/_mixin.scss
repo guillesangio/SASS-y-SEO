@@ -1,0 +1,29 @@
+@mixin texto($color, $size, $interlineado){
+	font-family: $mainFont;
+	color: $color;
+	font-size: $size;
+	line-height: $interlineado
+}
+
+@mixin d-flex($justify, $direction){
+	display: flex;
+	justify-content: $justify;
+	flex-direction: $direction;
+	width: 100%;
+}
+
+@mixin grid($division, $alineado){
+	display: grid;
+	grid-template-columns: $division;
+	justify-content: $alineado;
+}
+
+$paleta:(
+	'uno': #060606,
+	'dos': #FF0000,
+	'tres': #E97631,
+	'cuatro': #FDFDFD,
+	'cinco': #8D8D8D,
+	'seis': #E80434,
+);
+

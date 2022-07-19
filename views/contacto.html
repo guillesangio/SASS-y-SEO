@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contacto - Papin Pizzas - Comida hecha como en casa</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<link rel="shortcut icon" href="../img/favicon2.ico">
+	<link rel="stylesheet" href="../css/main.css">
+
+</head>
+<body>
+	<header>	
+		<nav class="navbar navbar-expand-lg bg-black">
+  			<div class="container-fluid">
+    			<a class="navbar-brand" href="../index.html">
+    			<img src="../img/logo.svg"  alt="logo de Papin Pizzas - Comer como en casa" id="img_logo">
+    			</a>
+    			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      				<span class="navbar-toggler-icon"></span>
+    			</button>
+    		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+      			<ul class="navbar-nav ms-auto ms-2 mb-lg-0">
+        			<li class="nav-item">
+        				<a class="nav-link" href="../views/nosotros.html">NOSOTROS</a>
+        			</li>
+        			<li class="nav-item">
+        				<a class="nav-link" href="../views/menu.html">MENU</a>
+        			</li>
+        			<li class="nav-item">
+        				<a class="nav-link" href="../views/galeria.html">GALERIA</a>
+        			</li>
+        			<li class="nav-item">
+        				<a class="nav-link" href="../views/contacto.html">CONTACTO</a>
+        			</li>        
+    		</div>
+  			</div>
+		</nav>
+		<img src="../img/header6.png" alt="Hamburguesa al pan de sesamo y una carne llena de queso cheddar" class="caruselfoto2">
+	</header>	
+	<main>
+		<section class="formulario text-center">
+			<div id="contacto-texto">
+				<h2>Contactacte con nosotros</h2>
+				<p>Como nos importa tu opinion
+				<br>
+				queremos que nos cuentes tu experiencia con nosotros
+				<br>
+				o si quieres realizar una sugerencia
+				</p>
+			</div>
+			<div class="formulariopapin">
+				<form action="sugerencias.php">
+					<fieldset class="sugerencias">
+						<div class="formulario_final">
+							<div class="contact_1">
+								<input type="text" class="formu" id="nombre" placeholder="Nombre">			
+								<input type="text" class="formu" id="apellido" placeholder="Apellido">
+								<input type="email" id="email" class="formu" placeholder="Correo Electronico">
+								<input type="text" id="Celular" class="formu" placeholder="Celular">
+							</div>
+						</div>	
+						<div class="motivos">
+							<select name="" class="formu_motivos">
+								<option selected>Seleccionar motivo de contacto</option>
+								<option value="Problema con el producto enviado">Problema con el producto enviado</option>
+								<option value="Problema con servicios de envios">Problema con servicios de envios </option>
+								<option value="Otras consultas o sugerencias"> Otras consultas o sugerencias</option>
+								</select>
+						</div>
+						<div class="sugerencias">
+							<textarea name="Otras sugerencias" class="formu_2" id="Otras sugerencias" cols="30" rows="10">Otras sugerencias</textarea>
+						</div>
+							<input type="submit" value="Enviar formulario">
+							<input type="reset" name="Cancelar formulario">
+					</fieldset>
+				</form>
+			</div>
+		</section>
+		<section class="text-center" id="encontranos" >
+			<h2>ENCONTRANOS</h2>
+			<p>Joanico 3332 esquina Propios</p>
+			<p>Telefono 2480 0409</p>
+			<p>Celular 093 997 007</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.083109790086!2d-56.151653184939754!3d-34.8792592803891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f8158d5278cbb%3A0xc866393b59193f29!2sPapinPizzas!5e0!3m2!1ses-419!2suy!4v1654027893077!5m2!1ses-419!2suy" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</section>
+	</main>
+<footer class="pie-pagina">
+		<div class="logo_footer">
+			<div class="box1">
+				<a href="index.html">
+				<img src="../img/logo.png" alt="logo de Papin Pizzas - Comer como en casa" class="logo_index">
+				</a>
+			</div>
+			<div class="box" class="contacto-papin">
+				<h2 id="text-center" >CONTACTO</h2>
+				<ul class="text-left">
+					<li>
+						<h3>Direccion:</h3>
+						<p>Joanico 3332</p>
+					</li>
+					<li>
+						<h3>Telefono:</h3>
+						<p>24800409</p>
+					</li>
+					<li>
+						<h3>Celular:</h3>
+						<p>093997007</p>
+					</li>
+				</ul>	
+			</div>
+				<div class="box">
+					<div class="redes-pedido">
+					<h2 class="text-center">HACE TUS PEDIDOS</p>
+					<a href="https://www.pedidosya.com.uy/restaurantes/montevideo/papin-pizzas-menu" target="'_blank'">
+					<img src="../img/pedidoya.png" alt="Logo de pedido ya y enlace al mismo">
+					</a>
+					<a href="https://www.rappi.com.uy/" target="'_blank'">
+					<img src="../img/rappi.png" alt="Logo de rappi y enlace al mismo">
+					</a>
+				</div>
+			</div>
+			<div class="box">
+				<h2 class="text-center">SEGUINOS EN REDES</p>
+					<div class="red-social">
+						<ul class="sociales">
+							<li>
+								<a href="https://www.facebook.com/Papin-Pizzas-145297070652330/" target="'_blank'" class="facebook">
+								<img src="../img/facebook.png" alt="Logo de Facebook y enlace al mismo" >
+								</a>
+							</li>
+							<li>
+								<a href="https://www.twitter.com" target="'_blank'" class="twitter">
+								<img src="../img/twitter.png" alt="Logo de twitter y enlace al mismo" >	
+								</a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/papinpizzas/?hl=es" target="'_blank'"  class="instagram">
+								<img src="../img/instagram.png" alt="Logo de instagram y enlace al mismo ">
+								</a>
+							</li>
+							<li>
+								<a href="https://api.whatsapp.com/send?phone=0123456789" target="'_blank'" class="whatsapp">
+								<img src="../img/whatsapp.png" alt="Logo de whatsapp y enlace a whatsapp web" >
+								</a>
+							</li>
+						</ul>
+					</div>
+			</div>
+		</div>	
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

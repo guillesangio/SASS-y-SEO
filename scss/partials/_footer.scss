@@ -1,0 +1,63 @@
+.pie-pagina {
+	width: 100%;
+	padding-top: 10px;
+	.logo_footer{
+		width: 100%;
+		margin: 0;
+		display: grid;
+		grid-template-columns: 25% 20% 20% 35%;
+		.box1{
+			.logo_index{
+				width: 200px;
+				height: 160px;
+				margin-left: 5px;
+				margin-top: 0px;
+			}
+		}		
+		.box{
+			h2{
+				color: $white;
+				font-size: $textMd;
+				text-decoration: none;
+				list-style: none;
+			}
+			h3{
+				color: $white;
+				font-size: $textSm;
+				padding-top: 0px;
+			}
+			p{
+				color: $secondaryColor;
+				font-size: $textSm;
+				align-content: center;
+			}	
+			.redes-pedido{
+				color: $white;
+				font-size: $textMd;
+				text-decoration: none;
+				list-style: none;
+				img{
+					width: 72px;
+					height: 65px;
+					margin-top: 10%;
+					margin-left: 10%;
+				}
+			}	
+			.red-social{
+				.sociales{
+					li{
+						display: inline-block;
+						text-decoration: none;
+						margin-left: 8%;
+						padding-top: 10px;
+						img{
+							width: 50px;
+							height: 50px;
+							margin-top: 40%;
+						}
+					}
+				}
+			}			
+		}
+	}
+}

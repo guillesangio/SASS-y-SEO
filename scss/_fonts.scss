@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+$mainFont: 'Shadows Into Light', cursive;
+
+$textXs: 0.8rem;
+$textSm: 1rem;
+$textMd: 1.4rem;
+$textLg: 2rem;
+$textXl: 4rem;
+
+.text-alert{
+	color: $red;
+}
+
+.text-bold{
+	font-weight: 500;
+}
+
+.text-light{
+	font-weight: 300;
+}
+
+.text-regular{
+	font-weight: 400;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-right{
+	text-align: right;
+}
