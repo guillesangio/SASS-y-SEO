@@ -1,4 +1,12 @@
 .menu_papin{
+	h2{
+		text-align: center;
+		color: $white;
+		padding-top: 40px;
+		padding-bottom: 30px;
+		text-decoration: underline;
+		text-align: center;	
+	}
 	.contenedor{
 			@include grid(20% 80%,center);
 			grid-template-rows: repeat(1, 1fr);
@@ -37,14 +45,6 @@
 }	
 
 .menu_papin{
-	h2{
-	text-align: center;
-	color: $white;
-	padding-top: 40px;
-	padding-bottom: 30px;
-	text-decoration: underline;
-	text-align: center;	
-	}
 	.contenedor{
 		.filtros{
 			@include texto($secondaryColor, $textMd, 1.5em)

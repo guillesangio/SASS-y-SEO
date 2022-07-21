@@ -335,11 +335,15 @@ html {
     .pie-pagina .logo_footer .box h3 {
       color: #F6F6F6;
       font-size: 1rem;
-      padding-top: 0px; }
+      padding-top: 0px;
+      margin-bottom: 0; }
     .pie-pagina .logo_footer .box p {
       color: #4C4B4B;
       font-size: 1rem;
-      align-content: center; }
+      align-content: center;
+      margin-bottom: 5px; }
+    .pie-pagina .logo_footer .box ul {
+      list-style: none; }
     .pie-pagina .logo_footer .box .redes-pedido {
       color: #F6F6F6;
       font-size: 1.4rem;
@@ -349,16 +353,18 @@ html {
         width: 72px;
         height: 65px;
         margin-top: 10%;
-        margin-left: 10%; }
-    .pie-pagina .logo_footer .box .red-social .sociales li {
-      display: inline-block;
-      text-decoration: none;
-      margin-left: 8%;
-      padding-top: 10px; }
-      .pie-pagina .logo_footer .box .red-social .sociales li img {
-        width: 50px;
-        height: 50px;
-        margin-top: 40%; }
+        margin-left: 5%; }
+    .pie-pagina .logo_footer .box .red-social .sociales {
+      padding-left: 0; }
+      .pie-pagina .logo_footer .box .red-social .sociales li {
+        display: inline-block;
+        text-decoration: none;
+        margin-left: 3%;
+        padding-top: 10px; }
+        .pie-pagina .logo_footer .box .red-social .sociales li img {
+          width: 50px;
+          height: 50px;
+          margin-top: 40%; }
 
 .formulario .formulariopapin .sugerencias .formulario_final .contact_1 .formu {
   width: 50%;
@@ -383,6 +389,14 @@ html {
   font-size: 1rem;
   border-radius: 0.6rem;
   margin: 10px 0; }
+
+.menu_papin h2 {
+  text-align: center;
+  color: #F6F6F6;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  text-decoration: underline;
+  text-align: center; }
 
 .menu_papin .contenedor {
   display: grid;
@@ -418,14 +432,6 @@ html {
       font-size: 1.4rem;
       line-height: 1;
       padding-top: 10px; }
-
-.menu_papin h2 {
-  text-align: center;
-  color: #F6F6F6;
-  padding-top: 40px;
-  padding-bottom: 30px;
-  text-decoration: underline;
-  text-align: center; }
 
 .menu_papin .contenedor .filtros {
   font-family: "Shadows Into Light", cursive;
@@ -475,7 +481,7 @@ html {
     .nosotros .nosotros_texto {
       width: 100%;
       margin: 0% 0% 2% 0%;
-      padding: 8%; }
+      padding: 0% 8% 1% 8%; }
   .pie-pagina .logo_footer .box .red-social .sociales li {
     display: inline-block;
     text-decoration: none;
@@ -546,3 +552,214 @@ html {
     height: 50vh;
     margin-top: 10px;
     margin-left: 0; } }
+
+@media only screen and (max-width: 768px) {
+  .navbar img {
+    width: 100px;
+    height: 80px; }
+  .navbar a {
+    font-size: 1rem; }
+  .boton_menu {
+    padding: 10px;
+    font-size: 1rem; }
+  .home_papin .infodepapin .articulopapin .home_nosotros_img .home_img {
+    width: 100vw;
+    height: 400px; }
+  .home_papin .infodepapin .articulopapin .home_papin_texto h3 {
+    font-size: 1.4rem;
+    padding-bottom: 5px; }
+  .home_papin .infodepapin .articulopapin .home_papin_texto p {
+    font-size: 1rem; }
+  .boton_pedido {
+    font-size: 1rem;
+    padding: 10px; }
+  .boton_nosotros {
+    font-size: 1rem;
+    padding: 0.15rem; }
+  .compra_papin .texto_compra h2 {
+    font-size: 1.4rem; }
+  .compra_papin .texto_compra h3 {
+    font-size: 1rem; }
+  .pie-pagina .logo_footer {
+    width: 100%;
+    margin: 0;
+    display: inline-block; }
+    .pie-pagina .logo_footer .box1 {
+      text-align: center; }
+      .pie-pagina .logo_footer .box1 .logo_index {
+        width: 80px;
+        height: 60px;
+        margin-bottom: 10px; }
+    .pie-pagina .logo_footer .box {
+      text-align: center;
+      text-decoration: none; }
+      .pie-pagina .logo_footer .box h2 {
+        font-size: 0.8rem; }
+      .pie-pagina .logo_footer .box h3 {
+        font-size: 0.6rem; }
+      .pie-pagina .logo_footer .box p {
+        font-size: 0.8rem;
+        margin-bottom: 0px; }
+      .pie-pagina .logo_footer .box ul {
+        margin-left: -27px; }
+        .pie-pagina .logo_footer .box ul li {
+          text-decoration: none; }
+      .pie-pagina .logo_footer .box .redes-pedido img {
+        width: 50px;
+        height: 50px;
+        margin-top: 1%;
+        margin-bottom: 2%;
+        margin-left: 2%; }
+      .pie-pagina .logo_footer .box .red-social .sociales li img {
+        margin-top: 10%; }
+  .nosotros {
+    display: inline-block; }
+    .nosotros .nosotros_img .nosotrosfoto {
+      height: 500px;
+      width: 100vw; }
+    .nosotros .nosotros_texto {
+      margin: 0% 2% 0% 0%;
+      text-align: center;
+      width: 98%;
+      padding: 0 15px 0 15px; }
+      .nosotros .nosotros_texto h2 {
+        line-height: 2rem;
+        font-size: 1.4rem; }
+      .nosotros .nosotros_texto p {
+        font-size: 1rem;
+        line-height: 1.8rem;
+        margin-top: 15px; }
+  .titulonosotros {
+    color: #F6F6F6;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.4rem; }
+  .menu_papin .contenedor {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: "productos"  "filtros"; }
+  .menu_papin .filtros {
+    grid-area: filtros;
+    text-align: center; }
+  .menu_papin .productos {
+    grid-area: productos; }
+    .menu_papin .productos .galeria {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: auto;
+      width: 100%; }
+      .menu_papin .productos .galeria figure {
+        width: 30%;
+        text-align: center; }
+        .menu_papin .productos .galeria figure img {
+          height: 60%; }
+        .menu_papin .productos .galeria figure figcaption {
+          font-family: "Shadows Into Light", cursive;
+          color: #F6F6F6;
+          font-size: 0.8rem;
+          line-height: 1;
+          padding-top: 10px; }
+  .menu_papin h2 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 1.4rem; }
+  .menu_papin .contenedor .filtros {
+    font-family: "Shadows Into Light", cursive;
+    color: #4C4B4B;
+    font-size: 1rem;
+    line-height: 1.2em;
+    padding-top: 10px;
+    float: none; }
+    .menu_papin .contenedor .filtros h3 {
+      text-align: center;
+      text-decoration: underline;
+      padding-bottom: 10px; }
+    .menu_papin .contenedor .filtros ul {
+      list-style: none;
+      padding: 0; }
+      .menu_papin .contenedor .filtros ul li {
+        padding-top: 5px; }
+  .productosdegaleria {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    grid-template-areas: "producto1img" "producto1texto" "prodcuto2img" "producto2texto" "producto3img" "producto3texto" "producto4img"  "producto4texto"; }
+  .producto1texto {
+    grid-area: producto1texto; }
+  .producto2texto {
+    grid-area: producto2texto; }
+  .producto3texto {
+    grid-area: producto3texto; }
+  .producto4texto {
+    grid-area: producto4texto; }
+  .producto1img {
+    grid-area: producto1img; }
+  .producto2img {
+    grid-area: prodcuto2img; }
+  .producto3img {
+    grid-area: producto3img; }
+  .producto4img {
+    grid-area: producto4img; }
+  .productosdegaleria .producto1texto h2 {
+    font-size: 1rem; }
+  .productosdegaleria .producto1texto p {
+    font-size: 0.6rem; }
+  .productosdegaleria .producto1img img {
+    height: 250px; }
+  .productosdegaleria .producto2texto h2 {
+    font-size: 1rem; }
+  .productosdegaleria .producto2texto p {
+    font-size: 0.6rem; }
+  .productosdegaleria .producto2img img {
+    height: 250px; }
+  .productosdegaleria .producto3texto h2 {
+    font-size: 1rem; }
+  .productosdegaleria .producto3texto p {
+    font-size: 0.6rem; }
+  .productosdegaleria .producto3img img {
+    height: 250px; }
+  .productosdegaleria .producto4texto h2 {
+    font-size: 1rem; }
+  .productosdegaleria .producto4texto p {
+    font-size: 0.6rem; }
+  .productosdegaleria .producto4img img {
+    height: 250px; }
+  .leyenda_productos h2 {
+    font-size: 1.4rem;
+    margin-top: 10px; }
+  .leyenda_productos p {
+    margin: 0 15px 0 15px;
+    font-size: 0.8rem;
+    padding: 0; }
+  .formulario .contacto_texto h2 {
+    font-size: 1.4rem; }
+  .formulario .contacto_texto p {
+    font-size: 0.8rem; }
+  .formulario .formulariopapin .sugerencias .formulario_final .contact_1 .formu {
+    width: 80%;
+    height: 30px;
+    padding: 0.2rem;
+    font-size: 0.8rem;
+    margin: 2px; }
+  .formulario .formulariopapin .sugerencias .motivos .formu_motivos {
+    display: inline-block;
+    width: 80%;
+    height: 30px;
+    font-size: 0.8rem;
+    margin: 5px 0; }
+  .formulario .formulariopapin .sugerencias .sugerencias .formu_2 {
+    width: 80%;
+    height: 100px;
+    padding: 0.2rem;
+    font-size: 0.8rem;
+    margin: 5px 0; }
+  .encontranos {
+    padding-top: 10px; }
+    .encontranos h2 {
+      font-size: 1.4rem; }
+    .encontranos p {
+      font-size: 1rem; }
+    .encontranos iframe {
+      height: 40vh; } }
