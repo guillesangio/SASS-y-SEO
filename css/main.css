@@ -451,7 +451,7 @@ html {
 
 @media only screen and (max-width: 1024px) {
   .orden .carousel .carousel-inner .carousel-item .caruselfoto {
-    height: 40vh;
+    height: 600px;
     width: 100vw; }
   .caruselfoto2 {
     height: 40vh;
@@ -559,12 +559,18 @@ html {
     height: 80px; }
   .navbar a {
     font-size: 1rem; }
+  .orden .carousel .carousel-inner .carousel-item .caruselfoto {
+    height: 400px;
+    width: 100vw; }
+  .caruselfoto2 {
+    height: 40vh;
+    width: 100vw; }
   .boton_menu {
     padding: 10px;
     font-size: 1rem; }
   .home_papin .infodepapin .articulopapin .home_nosotros_img .home_img {
     width: 100vw;
-    height: 400px; }
+    height: 600px; }
   .home_papin .infodepapin .articulopapin .home_papin_texto h3 {
     font-size: 1.4rem;
     padding-bottom: 5px; }
