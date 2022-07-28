@@ -769,3 +769,30 @@ html {
       font-size: 1rem; }
     .encontranos iframe {
       height: 40vh; } }
+
+.container_404 {
+  background-image: url(../img/error404.png);
+  width: 100%;
+  height: 500px;
+  padding-left: 50px;
+  padding-top: 80px; }
+  .container_404 h2 {
+    padding-bottom: 150px;
+    padding-left: 200px; }
+
+.boton_index {
+  font-family: "Shadows Into Light", cursive;
+  background-color: darkred;
+  color: #F6F6F6;
+  text-decoration: none;
+  list-style: none;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+  transition: 0.5s;
+  font-size: 1.4rem;
+  margin-top: 0; }
+  .boton_index:hover {
+    background: #EB8A2B;
+    color: #F6F6F6; }
