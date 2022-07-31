@@ -18,8 +18,9 @@
 			line-height: 3.5rem;
 			padding-top: 0;
 			font-size: $textLg;
-			text-decoration: underline;
-			color: $secondaryColor;
+			color: $white;
+			background-color: $keyColor;
+			margin-bottom: 0;
 		}
 		p{
 			color: $white;
@@ -35,11 +36,13 @@
 .titulonosotros{
 	color: $white;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	font-size: 3rem;
 	text-decoration: underline;
 	position: relative;
 	top: 0;
+	background-color: $keyColor;
 }
 
 

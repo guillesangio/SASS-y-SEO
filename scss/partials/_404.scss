@@ -1,13 +1,15 @@
 .container_404{
-	background-image: url(../img/error404.png);
-	width: 100%;
-	height: 500px;
-	padding-left: 50px;
-	padding-top: 80px;
-	h2{
-		padding-bottom: 150px;
-		padding-left: 200px;
-	}
+	background-image: url(../img/error404.png); 
+    height: 65vh;
+    width: 100%;
+    h2{
+    	padding-top: 100px;
+    	padding-left: 20vw;
+    }
+    h3{
+    	margin-top: 40px;
+    	padding-left: 4%;
+    }
 }
 
 .boton_index{

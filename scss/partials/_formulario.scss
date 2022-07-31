@@ -1,4 +1,11 @@
 .formulario{
+	h2{
+		background-color: $keyColor;
+		margin: 0;
+	}
+	p{
+		background-color: $secondaryColor;
+	}
 	.formulariopapin{
 		.sugerencias{
 			.formulario_final{
@@ -36,3 +43,15 @@
 		}
 	}
 }		
+
+.encontranos{
+	h2{
+		background-color: $keyColor;
+		margin-top: 10px;
+		margin-bottom: 0;
+	}
+	p{
+		background-color:$secondaryColor;
+		margin-bottom: 0; 
+	}
+}	

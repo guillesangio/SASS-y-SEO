@@ -16,7 +16,10 @@
     			text-align: center;
 					h3{
 						text-align: center;
-						padding-bottom: 15px;
+						padding-bottom: 8px;
+						background-color: $keyColor;
+						padding-top: 8px;
+						margin: 0;
 					}
 					p{
 						text-align: center;
@@ -29,6 +32,10 @@
 	}	
 	.compra_papin{
 		.texto_compra{
+			h2{
+				background-color: $keyColor;
+				margin-top: -5px;
+			}
 			position: relative;
     		font-family: $mainFont;
     		text-align: center;
@@ -41,11 +48,10 @@
 		.img_compra{
 			.compra_img{
 				height: 70vh;
-				width: 100vw;
+				width: 100%;
 
 			}
 		}
-
 	}
 }
 

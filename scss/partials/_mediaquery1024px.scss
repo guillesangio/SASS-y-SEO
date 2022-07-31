@@ -77,6 +77,24 @@
 			}			
 		}
 	}
+	.leyenda_productos{
+		h2{
+			text-align: center;
+			color: $white;
+			text-decoration: underline;
+			background-color: $keyColor;
+			margin: 20px 20px 0 20px;
+			font-size: $textLg;
+		}
+		p{
+			text-align: center;
+			color: $white;
+			background-color: $keyColor;
+			margin: 0 20px 0 20px;
+			padding: 10px;
+			font-size: $textMd;
+		}
+	}
 	.menu_papin{
 		.contenedor{
 				@include grid(100%,center);
@@ -176,6 +194,5 @@
 			margin-left: 0;
 			}
 		}
-	}
-}			
-
+	}	
+}

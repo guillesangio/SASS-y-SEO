@@ -2,10 +2,10 @@
 	h2{
 		text-align: center;
 		color: $white;
-		padding-top: 40px;
-		padding-bottom: 30px;
-		text-decoration: underline;
-		text-align: center;	
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		background-color: $keyColor;	
 	}
 	.contenedor{
 			@include grid(20% 80%,center);

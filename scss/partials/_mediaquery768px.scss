@@ -305,6 +305,7 @@
 		h2{
 			font-size: $textMd;
 			margin-top: 10px;
+			margin: 20px 15px 0 15px;
 		}
 		p{
 			margin: 0 15px 0 15px;
@@ -316,9 +317,11 @@
 		.contacto_texto{
 			h2{
 				font-size: $textMd;
+				margin: 15px 10px 0 10px; 
 			}
 			p{
 				font-size: $textXs;
+				margin: 0px 10px 0 10px;
 			}
 		}
 		.formulariopapin{
@@ -367,4 +370,15 @@
 			height: 40vh;
 		}
 	}		
+	.container_404{
+		background-image: url(../img/error404.png); 
+    	height: 65vh;
+    	width: 100%;
+    	h2{
+    		font-size: $textLg;
+    	}
+    	h3{
+    		font-size: $textMd;
+    	}
+	}
 }	
